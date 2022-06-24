@@ -122,8 +122,8 @@
   .landing {
     width: 100vw;
     height: calc(100vh - 30px);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(80, 80, 80, 0.55)), to(rgba(80, 80, 80, 0.55))), url('/images/railwayHumber-min.jpg');
-    background-image: linear-gradient(to bottom, rgba(80, 80, 80, 0.55), rgba(80, 80, 80, 0.55)), url('/images/railwayHumber-min.jpg');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(80, 80, 80, 0.55)), to(rgba(80, 80, 80, 0.55))), url('images/railwayHumber-min.jpg');
+    background-image: linear-gradient(to bottom, rgba(80, 80, 80, 0.55), rgba(80, 80, 80, 0.55)), url('images/railwayHumber-min.jpg');
     background-position: top;
     background-size: cover;
     padding: 1em;
@@ -613,6 +613,9 @@
   }
   #hamburger-icon {
     display: none;
+  }
+  .landing {
+    background-position: center;
   }
   .landing .banner {
     margin: 0 auto;
