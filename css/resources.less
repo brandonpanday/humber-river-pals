@@ -1,0 +1,209 @@
+/* --- PRELOAD FONTS -- */
+/* montserrat-regular - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/montserrat-v24-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/montserrat-v24-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/montserrat-v24-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/montserrat-v24-latin-regular.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/montserrat-v24-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/montserrat-v24-latin-regular.svg#Montserrat") format("svg"); /* Legacy iOS */
+}
+@media screen and (min-width: 0px) {
+  .landing {
+    width: 100vw;
+    height: 100px;
+    padding: 1em;
+    border-bottom: 2px solid #e1e1e1;
+    background-color: #fff;;
+    .banner {
+      
+    }
+  }
+  .resources-container {
+    width: 100vw;
+    background-color: rgb(249, 249, 255);
+    padding: 2em 0;
+    min-height: 600px;
+
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2em 10px;
+
+      h2 {
+        text-transform: capitalize;
+        text-align: center;
+        margin-bottom: 1.5em;
+        font-family: "Helvetica Neue", sans-serif;
+        color: #221612;
+        width: 100%;
+      }
+      .resource {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 1em 0;
+        border-bottom: 1px solid black;
+        
+
+        .left {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          width: 300px;
+          height: 100px;
+          background-color: transparent;
+          color: black;
+          border-radius: 10px;
+          font-size: 1.1em;
+          
+        }
+        .right {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          width: 300px;
+          height: 200px;
+          background-color: transparent;
+        }
+        p {
+          font-family: "Open Sans", sans-serif;
+          text-align: center;
+        }
+        button {
+          margin: 0.5em 0;
+          padding: 0;
+          background: none;
+          border: none;
+          padding: 1.5em 2em;
+          background-color: black;
+          color: #f2f2f2;
+          font-size: 1em;
+          font-family: "Open Sans", sans-serif;
+          letter-spacing: 1px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 991px) {
+}
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .resources-container {
+    width: 100vw;
+    background-color: rgb(249, 249, 255);
+    padding: 2em 0;
+
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2em 10px;
+
+      h2 {
+        text-transform: capitalize;
+        text-align: center;
+        margin-bottom: 1.5em;
+        font-family: "Helvetica Neue", sans-serif;
+        color: #221612;
+        width: 100%;
+      }
+      p {
+        width: 750px;
+        padding: 0.25em 10px;
+        margin: 0 auto;
+        line-height: 1.6em;
+        font-family: "Montserrat", sans-serif;
+        color: #404040;
+        font-size: 1em;
+      }
+    }
+  }
+}
+@media screen and (min-width: 1024px) {
+  .resources-container {
+    width: 100vw;
+    background-color: rgb(249, 249, 255);
+    padding: 2em 0;
+
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2em 10px;
+
+      h2 {
+        text-transform: capitalize;
+        text-align: center;
+        margin-bottom: 1.5em;
+        font-family: "Helvetica Neue", sans-serif;
+        color: #221612;
+        width: 100%;
+      }
+      .resource {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 1em 0;
+
+        .left {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          width: 300px;
+          height: 100px;
+          background-color: transparent;
+          color: black;
+          border-radius: 10px;
+          font-size: 1.1em;
+          
+        }
+        .right {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          width: 300px;
+          height: 200px;
+          background-color: transparent;
+        }
+        p {
+          font-family: "Open Sans", sans-serif;
+          text-align: center;
+        }
+        button {
+          margin: 0.5em 0;
+          padding: 0;
+          background: none;
+          border: none;
+          padding: 1.5em 2em;
+          background-color: black;
+          color: #f2f2f2;
+          font-size: 1em;
+          font-family: "Open Sans", sans-serif;
+          letter-spacing: 1px;
+          cursor: pointer;
+        }
+        button:hover {
+          background-color: #323554;
+        }
+      }
+    }
+  }
+}
