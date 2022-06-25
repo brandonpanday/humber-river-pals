@@ -11,6 +11,75 @@
   /* Legacy iOS */
 }
 @media screen and (min-width: 0px) {
+  .upcoming-events {
+    width: 100vw;
+    background-color: #ecf6f3;
+    padding: 1.5em 10px;
+  }
+  .upcoming-events .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .upcoming-events .wrapper h2 {
+    text-align: center;
+    padding: 2em 15px;
+    font-family: "Helvetica Neue", sans-serif;
+    text-transform: capitalize;
+    color: #323235;
+  }
+  .upcoming-events .wrapper a {
+    text-decoration: none;
+  }
+  .upcoming-events .wrapper .event-container {
+    width: 300px;
+    min-height: 100%;
+    height: auto;
+    background-color: white;
+    margin: 0 0 1.5em 0;
+  }
+  .upcoming-events .wrapper .event-container img {
+    height: 200px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin: 0 0 0 0;
+    border-bottom: 5px solid #ea2c57;
+  }
+  .upcoming-events .wrapper .event-container .info {
+    width: 300px;
+    height: auto;
+  }
+  .upcoming-events .wrapper .event-container .info h3 {
+    padding: 1em 0 0 0;
+    font-family: "Helvetica Neue", sans-serif;
+    text-align: center;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #444444;
+  }
+  .upcoming-events .wrapper .event-container .info h4 {
+    text-align: center;
+    margin: 0.5em 0;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #444444;
+  }
+  .upcoming-events .wrapper .event-container .info p {
+    width: 300px;
+    padding: 1em 10px;
+    margin: 0 auto;
+    line-height: 1.4em;
+    font-family: "Open Sans", sans-serif;
+    color: #535056;
+    font-size: 0.9em;
+  }
   .landing {
     width: 100vw;
     height: 100px;
@@ -36,6 +105,28 @@
         -ms-flex-align: center;
             align-items: center;
     padding: 2em 10px;
+  }
+  .contact-container .wrapper .emailLink {
+    text-align: center;
+  }
+  .contact-container .wrapper .link-box {
+    margin: 1em 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact-container .wrapper .link-box a {
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    margin: 1em 1em;
+    color: #313034;
+  }
+  .contact-container .wrapper .link-box a:hover {
+    text-decoration: underline;
   }
   .contact-container .wrapper h2 {
     text-transform: capitalize;
@@ -117,14 +208,13 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     padding: 2em 10px;
+  }
+  .contact-container .wrapper .information {
+    text-align: center;
   }
   .contact-container .wrapper h2 {
     text-transform: capitalize;
-    text-align: center;
     margin-bottom: 1.5em;
     font-family: "Helvetica Neue", sans-serif;
     color: #221612;
@@ -141,10 +231,21 @@
   }
   .contact-container .wrapper .link-box {
     margin: 1em 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .contact-container .wrapper .link-box a {
-    font-family: "Helvetica Neue", sans-serif;
+    font-family: "Open Sans", sans-serif;
     text-decoration: none;
-    margin: 0 1em;
+    margin: 1em 1em;
+    color: #313034;
+  }
+  .contact-container .wrapper .link-box a:hover {
+    text-decoration: underline;
   }
 }

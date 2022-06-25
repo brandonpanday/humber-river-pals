@@ -73,7 +73,6 @@
     padding: 0;
   }
   body {
-    width: 100vw;
     font-size: 17px;
   }
   nav {
@@ -398,8 +397,12 @@
     text-transform: capitalize;
     color: #323235;
   }
+  .upcoming-events .wrapper a {
+    text-decoration: none;
+  }
   .upcoming-events .wrapper .event-container {
     width: 300px;
+    min-height: 100%;
     height: auto;
     background-color: white;
     margin: 0 0 1.5em 0;
@@ -435,19 +438,8 @@
     padding: 1em 10px;
     margin: 0 auto;
     line-height: 1.4em;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: #535056;
-    font-size: 0.9em;
-  }
-  .upcoming-events .wrapper .event-container .info a {
-    float: right;
-    margin: 1.5em;
-    text-decoration: none;
-    color: #ea2c56;
-    text-transform: capitalize;
-    font-family: "Helvetica Neue", sans-serif;
-    font-weight: 500;
-    font-style: oblique;
     font-size: 0.9em;
   }
   footer {
