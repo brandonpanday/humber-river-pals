@@ -428,14 +428,14 @@
   }
   .upcoming-events .wrapper .event-container .info h4 {
     text-align: center;
-    margin: 0.5em 0;
+    padding: 1em 0;
     font-family: sans-serif;
     font-weight: 100;
     color: #444444;
   }
   .upcoming-events .wrapper .event-container .info p {
     width: 300px;
-    padding: 1em 10px;
+    padding: 0 .5em 2em .5em;;
     margin: 0 auto;
     line-height: 1.4em;
     font-family: "Open Sans", sans-serif;
@@ -563,7 +563,6 @@
     line-height: 1.5em;
   }
   .upcoming-events .wrapper .events-container {
-    width: 90%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -782,7 +781,6 @@
     margin: 0 auto;
   }
   .upcoming-events .wrapper .events-container {
-    width: 90%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
