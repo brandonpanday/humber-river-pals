@@ -396,8 +396,12 @@
     text-transform: capitalize;
     color: #323235;
   }
+  .upcoming-events .wrapper a {
+    text-decoration: none;
+  }
   .upcoming-events .wrapper .event-container {
     width: 300px;
+    min-height: 100%;
     height: auto;
     background-color: white;
     margin: 0 0 1.5em 0;
@@ -423,29 +427,18 @@
   }
   .upcoming-events .wrapper .event-container .info h4 {
     text-align: center;
-    margin: 0.5em 0;
+    padding: 1em 0;
     font-family: sans-serif;
     font-weight: 100;
     color: #444444;
   }
   .upcoming-events .wrapper .event-container .info p {
     width: 300px;
-    padding: 1em 10px;
+    padding: 0 .5em 2em .5em;;
     margin: 0 auto;
     line-height: 1.4em;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: #535056;
-    font-size: 0.9em;
-  }
-  .upcoming-events .wrapper .event-container .info a {
-    float: right;
-    margin: 1.5em;
-    text-decoration: none;
-    color: #ea2c56;
-    text-transform: capitalize;
-    font-family: "Helvetica Neue", sans-serif;
-    font-weight: 500;
-    font-style: oblique;
     font-size: 0.9em;
   }
   footer {
@@ -569,7 +562,6 @@
     line-height: 1.5em;
   }
   .upcoming-events .wrapper .events-container {
-    width: 90%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -757,7 +749,6 @@
     margin: 0 auto;
   }
   .upcoming-events .wrapper .events-container {
-    width: 90%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
