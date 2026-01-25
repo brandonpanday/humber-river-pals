@@ -11,37 +11,7 @@
   /* Legacy iOS */
 }
 @media screen and (min-width: 0px) {
-  .social-icons{
-    display: flex;
-    justify-content: space-between;
-    min-width: 300px;
-    padding: 2em 0 0 0;
-  }
-  .fab {
-  font-size: 40px;
-  text-align: center;
-  text-decoration: none;
-}
-.fa-facebook {
-  color: #1877F2;
-}
-.fa-twitter {
-  color: #1DA1F2;
-}
-.fa-tiktok {
-  color: #040404;
-}
-.fa-envelope {
-  font-size: 40px;
-  text-align: center;
-  text-decoration: none;
-    color: #EA4335;
-}
-
-.fab:hover {
-    opacity: 0.7;
-}
-.upcoming-events {
+  .upcoming-events {
     width: 100vw;
     background-color: #ecf6f3;
     padding: 1.5em 10px;
@@ -96,14 +66,14 @@
   }
   .upcoming-events .wrapper .event-container .info h4 {
     text-align: center;
-    padding: 1em 0;
+    margin: 0.5em 0;
     font-family: sans-serif;
     font-weight: 100;
     color: #444444;
   }
   .upcoming-events .wrapper .event-container .info p {
     width: 300px;
-    padding: 0 .5em 2em .5em;;
+    padding: 1em 10px;
     margin: 0 auto;
     line-height: 1.4em;
     font-family: "Open Sans", sans-serif;
@@ -161,10 +131,10 @@
   .contact-container .wrapper h2 {
     text-transform: capitalize;
     text-align: center;
+    margin-bottom: 1.5em;
     font-family: "Helvetica Neue", sans-serif;
     color: #221612;
     width: 100%;
-    padding: 0 0 0.5em 0;
   }
   .contact-container .wrapper h3 {
     text-transform: capitalize;
@@ -175,8 +145,7 @@
     width: 100%;
   }
   .contact-container .wrapper p {
-    min-width: 300px;
-    max-width: 600px;
+    width: 300px;
     padding: 0.25em 10px;
     margin: 0 auto;
     line-height: 1.6em;
@@ -246,6 +215,7 @@
   }
   .contact-container .wrapper h2 {
     text-transform: capitalize;
+    margin-bottom: 1.5em;
     font-family: "Helvetica Neue", sans-serif;
     color: #221612;
     width: 100%;

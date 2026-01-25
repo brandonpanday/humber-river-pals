@@ -11,7 +11,7 @@
   /* Legacy iOS */
 }
 @media screen and (min-width: 0px) {
-.upcoming-events {
+  .upcoming-events {
     width: 100vw;
     background-color: #ecf6f3;
     padding: 1.5em 10px;
@@ -66,14 +66,14 @@
   }
   .upcoming-events .wrapper .event-container .info h4 {
     text-align: center;
-    padding: 1em 0;
+    margin: 0.5em 0;
     font-family: sans-serif;
     font-weight: 100;
     color: #444444;
   }
   .upcoming-events .wrapper .event-container .info p {
     width: 300px;
-    padding: 0 .5em 2em .5em;;
+    padding: 1em 10px;
     margin: 0 auto;
     line-height: 1.4em;
     font-family: "Open Sans", sans-serif;
