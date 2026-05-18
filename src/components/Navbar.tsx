@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { MenuIcon, XIcon } from 'lucide-react';
 import { publicAsset } from '../lib/assets';
 
-const LOGO_URL = publicAsset('hrp-transparent.png');
+const LOGO_URL = publicAsset('hrp-logo-nav.png');
 
 const navLinks = [
 {

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { publicAsset } from '../lib/assets';
 
-const LOGO_URL = publicAsset('hrp-transparent.png');
+const LOGO_URL = publicAsset('hrp-logo-nav.png');
 
 const footerLinks = [
 {

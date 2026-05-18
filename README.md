@@ -16,4 +16,11 @@ The site deploys automatically from `main` via GitHub Actions.
 3. After the workflow finishes, the site is live at  
    **https://brandonpanday.github.io/humber-river-pals/**
 
-Put static files (images, logo, etc.) in a `public/` folder at the repo root so they are copied into the build.
+Static images live in `public/` and are referenced in components via `publicAsset('filename.jpg')`.
+
+| File | Used on |
+|------|---------|
+| `hrp-logo-nav.png` | Navbar, footer |
+| `hrp-transparent.png` | Full-resolution logo (optional) |
+| `about-organizers-1.jpg`, `about-organizers-2.jpg` | About page |
+| `672992571_…_n.jpg` (and 4 similar) | Home volunteer gallery |

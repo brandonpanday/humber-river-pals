@@ -124,6 +124,8 @@ export function AboutPage() {
               <img
                 src={publicAsset('about-organizers-1.jpg')}
                 alt="Humber River Pals organizers group photo in front of mural"
+                loading="lazy"
+                decoding="async"
                 className="w-full h-[300px] md:h-[400px] object-cover" />
               
             </div>
@@ -131,6 +133,8 @@ export function AboutPage() {
               <img
                 src={publicAsset('about-organizers-2.jpg')}
                 alt="Humber River Pals organizers sitting together in storage container"
+                loading="lazy"
+                decoding="async"
                 className="w-full h-[300px] md:h-[400px] object-cover" />
               
             </div>
