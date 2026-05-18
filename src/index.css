@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600&display=swap');
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --sage: #b8cbb3;
+  --sage-light: #dce8d8;
+  --sage-dark: #5e7a58;
+  --olive: #3d6b4f;
+  --cream: #eef3eb;
+  --river-blue: #3bb5c9;
+  --leaf-green: #7cc143;
+  --earth-brown: #2c5a4a;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--sage);
+}
+h1, h2, h3, h4 {
+  font-family: 'DM Serif Display', serif;
+}
