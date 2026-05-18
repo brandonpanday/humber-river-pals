@@ -2,7 +2,9 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { MenuIcon, XIcon } from 'lucide-react';
-const LOGO_URL = "/hrp-transparent.png";
+import { publicAsset } from '../lib/assets';
+
+const LOGO_URL = publicAsset('hrp-transparent.png');
 
 const navLinks = [
 {
@@ -23,7 +25,7 @@ const navLinks = [
 {
   label: 'Volunteer',
   href: '/#volunteer',
-  isRoute: false
+  isRoute: true
 },
 {
   label: 'Contact',

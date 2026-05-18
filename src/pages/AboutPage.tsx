@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronDownIcon } from 'lucide-react';
+import { publicAsset } from '../lib/assets';
 const faqs = [
 {
   question: 'Do I need to register for an event beforehand?',
@@ -121,14 +122,14 @@ export function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="rounded-2xl overflow-hidden shadow-lg">
               <img
-                src="/about-organizers-1.jpg"
+                src={publicAsset('about-organizers-1.jpg')}
                 alt="Humber River Pals organizers group photo in front of mural"
                 className="w-full h-[300px] md:h-[400px] object-cover" />
               
             </div>
             <div className="rounded-2xl overflow-hidden shadow-lg">
               <img
-                src="/about-organizers-2.jpg"
+                src={publicAsset('about-organizers-2.jpg')}
                 alt="Humber River Pals organizers sitting together in storage container"
                 className="w-full h-[300px] md:h-[400px] object-cover" />
               

@@ -1,8 +1,10 @@
 import React, { lazy } from 'react';
 import { motion } from 'framer-motion';
+import { publicAsset } from '../lib/assets';
+
 const photos = [
 {
-  src: "/672992571_18086422925579637_1706588785616110731_n.jpg",
+  src: publicAsset('672992571_18086422925579637_1706588785616110731_n.jpg'),
   alt: 'Young volunteer cleaning up by the Humber River',
   rotate: -7,
   top: '40%',
@@ -11,7 +13,7 @@ const photos = [
   height: 260
 },
 {
-  src: "/673178082_18086422952579637_6392880267126401504_n.jpg",
+  src: publicAsset('673178082_18086422952579637_6392880267126401504_n.jpg'),
   alt: 'Volunteer picking up litter along the riverbank',
   rotate: 4,
   top: '25%',
@@ -20,7 +22,7 @@ const photos = [
   height: 280
 },
 {
-  src: "/671246085_18086422979579637_3666016990255895250_n.jpg",
+  src: publicAsset('671246085_18086422979579637_3666016990255895250_n.jpg'),
   alt: 'Volunteer holding collected waste by the river',
   rotate: -2,
   top: '30%',
@@ -29,7 +31,7 @@ const photos = [
   height: 300
 },
 {
-  src: "/557962776_18063310622579637_5569077755134181061_n.jpg",
+  src: publicAsset('557962776_18063310622579637_5569077755134181061_n.jpg'),
   alt: 'Community gathering in the park',
   rotate: 6,
   top: '20%',
@@ -38,7 +40,7 @@ const photos = [
   height: 270
 },
 {
-  src: "/555040981_18063310613579637_6113571362621527000_n.jpg",
+  src: publicAsset('555040981_18063310613579637_6113571362621527000_n.jpg'),
   alt: 'Family volunteering along the river trail',
   rotate: -5,
   top: '35%',
