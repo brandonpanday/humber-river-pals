@@ -1,7 +1,7 @@
 {
   "name": "magic-patterns-vite-template",
   "version": "0.0.1",
-  "homepage": "https://brandonpanday.github.io/humber-river-pals/",
+  "homepage": "https://brandonpanday.github.io",
   "private": true,
   "type": "module",
   "scripts": {
